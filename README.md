@@ -1,7 +1,7 @@
 # OnlineDictionary
 
 ## Introduction
- Sample dictionary app using API calling.
+ Sample Online dictionary app using API calling.
  
  ## Feature List
  * Get Meanings
@@ -17,6 +17,7 @@
  * Change the code try it with yourself.
 
 ## How to use this app
+Download Sample app **[Click Here](https://github.com/Curi0usCoder/OnlineDictionary/raw/main/APK/dictionary.apk)**.<br>
 Open the app and search a word in the search box, it takes some time and you can get Meanings, Example words, Audio, Antonyms and Synonyms.
 
 ## Important
