@@ -9,7 +9,7 @@
  * Synonyms and Antonyms
  * Audio
  
- <img src="/Screenshots/Screenshot4.PNG" width="220"/> <img src="/Screenshots/Screenshot5.PNG" width="220"/> <img src="/Screenshots/Screenshot6.PNG" width="220"/>
+ <img src="/Screenshots/Screenshot4.PNG" width="230"/> <img src="/Screenshots/Screenshot5.PNG" width="230"/> <img src="/Screenshots/Screenshot6.PNG" width="230"/>
  
  ## Getting Started
  * First download this project and open it with 'Android Studio'.
