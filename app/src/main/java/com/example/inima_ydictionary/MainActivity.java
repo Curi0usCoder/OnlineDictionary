@@ -44,20 +44,6 @@ public class MainActivity extends AppCompatActivity {
     ImageView SearchButton;
     ScrollView ScrollLayout;
 
-    String Queen="yamini";
-    String Queen2="yaminisri";
-    String Queen3="rajulapatiyamini";
-    String Queen4="rajulapatiyaminisri";
-    String Queen5="yaminisrirajulapati";
-    String Queen6="yaminirajulapati";
-
-
-    String King ="sarath";
-    String King1 ="sarathkumar";
-    String King2 ="whitechuha";
-    String King3 ="webmaster";
-
-
     LinearLayout Wordlayout,Textlayout,Definitionlayout,Examplelayout,Synonymslayout,Antonymslayout,BackArrow;
 
     private MediaPlayer mediaPlayer;
@@ -174,65 +160,7 @@ public class MainActivity extends AppCompatActivity {
 
             String text=SearchBox.getText().toString().toLowerCase().replaceAll("\\s","");
 
-            if (text.equals(Queen)||text.equals(Queen2)||text.equals(Queen3)||text.equals(Queen4)||text.equals(Queen5)||text.equals(Queen6)){
-
-                VoiceMod.setVisibility(View.VISIBLE);
-                Textlayout.setVisibility(View.VISIBLE);
-                Definitionlayout.setVisibility(View.VISIBLE);
-                Examplelayout.setVisibility(View.VISIBLE);
-                Synonymslayout.setVisibility(View.VISIBLE);
-                Antonymslayout.setVisibility(View.VISIBLE);
-                ScrollLayout.setVisibility(View.VISIBLE);
-                VoiceMod.setVisibility(View.GONE);
-
-                WordText.setText(SearchBox.getText().toString().toUpperCase());
-                DefinitionText.setText("She's a cute girl born in \"Vuyyuru\" village.");
-                ExampleText.setText("1. Yamini draws well.\n2.Yamini is an Artist.");
-                SynonymsText.setText("Yamini sri");
-                AntonymsText.setText("⅄ɐɯıuı");
-                LatinText.setText("ʕ•ﻌ•ʔ");
-
-            }
-            else if (text.equals(King)||text.equals(King1)||text.equals(King2)){
-
-                VoiceMod.setVisibility(View.VISIBLE);
-                Textlayout.setVisibility(View.VISIBLE);
-                Definitionlayout.setVisibility(View.VISIBLE);
-                Examplelayout.setVisibility(View.VISIBLE);
-                Synonymslayout.setVisibility(View.VISIBLE);
-                Antonymslayout.setVisibility(View.VISIBLE);
-                ScrollLayout.setVisibility(View.VISIBLE);
-                VoiceMod.setVisibility(View.GONE);
-
-                WordText.setText(SearchBox.getText().toString().toUpperCase());
-                DefinitionText.setText("1. He's from \"Ongole\".\n\n2. He's also known as Webmaster.");
-                ExampleText.setText("1. Sarath tried to call Yamini.\n\n2.Sarath says sorry to Yamini, becuase he's late yesterday.");
-                SynonymsText.setText("Sarath Kumar, Sarath, Webmaster");
-                AntonymsText.setText("WhiteChuha");
-                LatinText.setText("|/\\|πi†€©πuha");
-
-            }
-
-            else if (text.equals(King3)){
-
-                VoiceMod.setVisibility(View.VISIBLE);
-                Textlayout.setVisibility(View.VISIBLE);
-                Definitionlayout.setVisibility(View.VISIBLE);
-                Examplelayout.setVisibility(View.VISIBLE);
-                Synonymslayout.setVisibility(View.VISIBLE);
-                Antonymslayout.setVisibility(View.VISIBLE);
-                ScrollLayout.setVisibility(View.VISIBLE);
-                VoiceMod.setVisibility(View.GONE);
-
-                WordText.setText(SearchBox.getText().toString().toUpperCase());
-                DefinitionText.setText("1. He's from \"Ongole\".\n\n2. He's also known as Sarath.");
-                ExampleText.setText("1. Sarath tried to call Yamini.\n\n2. Sarath says sorry to Yamini, becuase he's late yesterday.");
-                SynonymsText.setText("Sarath Kumar, Sarath, Webmaster");
-                AntonymsText.setText("WhiteChuha");
-                LatinText.setText("|/\\|πi†€©πuha");
-
-            }
-
+            if(false){}
             else {
                 SetTextLoading();
                 Request request = new Request.Builder()
